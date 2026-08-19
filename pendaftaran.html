@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pendaftaran — SMP Boarding School Daru Muttaqien</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a href="#main" class="skip-link">Lompat ke konten</a>
+
+<header class="site">
+  <div class="nav-wrap">
+    <a href="index.html" class="brand">
+      <span class="mark"><svg viewBox="0 0 24 24"><path d="M12 2l2.4 4.86L20 7.9l-4 3.9.95 5.55L12 14.9l-4.95 2.45L8 11.8l-4-3.9 5.6-1.04L12 2z"/></svg></span>
+      <span class="name">Daru Muttaqien<small>SMP Boarding School</small></span>
+    </a>
+    <nav class="primary">
+      <ul>
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="tentang.html">Tentang</a></li>
+        <li><a href="pendaftaran.html" class="active">Pendaftaran</a></li>
+        <li><a href="kontak.html">Kontak &amp; Alamat</a></li>
+      </ul>
+    </nav>
+    <a href="#form-daftar" class="btn btn-primary">Daftar Sekarang</a>
+  </div>
+</header>
+
+<main id="main">
+
+  <div class="page-header">
+    <div class="inner">
+      <span class="breadcrumb"><a href="index.html">Beranda</a> / Pendaftaran</span>
+      <h1>Pendaftaran Santri Baru</h1>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="split">
+      <div>
+        <span class="eyebrow">Alur Pendaftaran</span>
+        <h2 style="font-size:1.6rem; margin-top:0.6rem; color:var(--emerald-deep);">4 Langkah Mudah</h2>
+        <div class="step-list">
+          <div class="step">
+            <span class="n">01</span>
+            <div><h3>Isi Formulir Online</h3><p>Lengkapi formulir pendaftaran di halaman ini atau datang langsung ke kantor sekretariat.</p></div>
+          </div>
+          <div class="step">
+            <span class="n">02</span>
+            <div><h3>Verifikasi Berkas</h3><p>Panitia memeriksa kelengkapan dokumen calon santri (KK, akta, ijazah/rapor terakhir).</p></div>
+          </div>
+          <div class="step">
+            <span class="n">03</span>
+            <div><h3>Tes Seleksi</h3><p>Calon santri mengikuti tes baca Al-Qur'an, akademik dasar, dan wawancara wali santri.</p></div>
+          </div>
+          <div class="step">
+            <span class="n">04</span>
+            <div><h3>Pengumuman &amp; Daftar Ulang</h3><p>Hasil seleksi diumumkan, dilanjutkan dengan proses daftar ulang dan pembayaran.</p></div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="info-card">
+          <h3>Informasi Penting</h3>
+          <dl>
+            <div><dt>Gelombang Pendaftaran</dt><dd>Gelombang 1 — 1 Nov s.d. 31 Des 2026</dd></div>
+            <div><dt>Biaya Formulir</dt><dd>Rp 250.000</dd></div>
+            <div><dt>Tes Seleksi</dt><dd>Setiap Sabtu, mulai pukul 08.00 WIB</dd></div>
+            <div><dt>Kuota Santri Baru</dt><dd>160 santri (putra &amp; putri)</dd></div>
+          </dl>
+        </div>
+        <div class="info-card" style="margin-top:1.4rem;">
+          <h3>Berkas yang Disiapkan</h3>
+          <dl>
+            <div><dt>Dokumen</dt><dd>Fotokopi KK &amp; Akta Kelahiran</dd></div>
+            <div><dt>Dokumen</dt><dd>Fotokopi Rapor/Ijazah SD terakhir</dd></div>
+            <div><dt>Dokumen</dt><dd>Pas foto 3x4 (4 lembar)</dd></div>
+            <div><dt>Dokumen</dt><dd>Surat Keterangan Sehat</dd></div>
+          </dl>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="star-divider"><span class="line"></span><svg viewBox="0 0 24 24"><path d="M12 2l1.8 6.2L20 10l-6.2 1.8L12 18l-1.8-6.2L4 10l6.2-1.8L12 2z"/></svg><span class="line"></span></div>
+
+  <section class="section" id="form-daftar">
+    <div class="section-head">
+      <span class="eyebrow">Formulir</span>
+      <h2>Formulir Pendaftaran Online</h2>
+      <p>Isi data berikut untuk memulai proses pendaftaran. Tim kami akan menghubungi Anda dalam 2x24 jam.</p>
+    </div>
+
+    <form class="form" onsubmit="return false;">
+      <div class="form-row">
+        <div>
+          <label for="nama">Nama Lengkap Calon Santri</label>
+          <input type="text" id="nama" name="nama" placeholder="Contoh: Ahmad Fauzan" required>
+        </div>
+        <div>
+          <label for="asalSekolah">Asal Sekolah (SD/MI)</label>
+          <input type="text" id="asalSekolah" name="asalSekolah" placeholder="Nama sekolah asal" required>
+        </div>
+      </div>
+      <div class="form-row">
+        <div>
+          <label for="namaWali">Nama Orang Tua / Wali</label>
+          <input type="text" id="namaWali" name="namaWali" placeholder="Nama lengkap wali" required>
+        </div>
+        <div>
+          <label for="telepon">Nomor WhatsApp</label>
+          <input type="tel" id="telepon" name="telepon" placeholder="08xx-xxxx-xxxx" required>
+        </div>
+      </div>
+      <div>
+        <label for="jenjang">Jenjang yang Dituju</label>
+        <select id="jenjang" name="jenjang">
+          <option>Kelas 7 (SMP)</option>
+        </select>
+      </div>
+      <div>
+        <label for="pesan">Catatan Tambahan (opsional)</label>
+        <textarea id="pesan" name="pesan" rows="4" placeholder="Pertanyaan atau informasi tambahan"></textarea>
+      </div>
+      <div>
+        <button type="submit" class="btn btn-primary">Kirim Formulir</button>
+      </div>
+    </form>
+  </section>
+
+</main>
+
+<footer class="site">
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div class="name">Daru Muttaqien</div>
+      <p style="margin-top:0.7rem;">SMP Boarding School yang memadukan pendidikan umum, tahfidz, dan pembinaan karakter santri.</p>
+    </div>
+    <div>
+      <h4>Navigasi</h4>
+      <ul>
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="tentang.html">Tentang</a></li>
+        <li><a href="pendaftaran.html">Pendaftaran</a></li>
+        <li><a href="kontak.html">Kontak &amp; Alamat</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Program</h4>
+      <ul>
+        <li><a href="tentang.html">Kurikulum</a></li>
+        <li><a href="tentang.html">Tahfidz &amp; Diniyah</a></li>
+        <li><a href="tentang.html">Kehidupan Asrama</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Kontak</h4>
+      <p>Jl. Pesantren Raya No. 12<br>Bogor, Jawa Barat</p>
+      <p style="margin-top:0.6rem;">(0251) 123-4567</p>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2026 SMP Boarding School Daru Muttaqien — daru-muttaqien.sch.id</div>
+</footer>
+
+</body>
+</html>
